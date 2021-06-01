@@ -1,0 +1,66 @@
+/* Import de la police*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+/* Général */
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+
+  /* Div sur le coté gauche */
+.side {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+    .name {
+        background-color: #004bad;
+        font-size: 20pt;
+        color: white;
+        margin: 0;
+        padding: 0;
+        width: 10%;
+        line-height: 0.2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        }
+
+    .sidenav {
+        margin: 0;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 10%;
+        background-color: #9c9c9c;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+      }
+
+      li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-size: 16pt;
+      }
+
+      li a.active {
+        background-color: #006dd3d5;
+        color: white;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #006dd3d5;
+        color: white;
+      }
+
